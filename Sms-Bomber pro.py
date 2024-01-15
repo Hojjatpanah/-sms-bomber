@@ -874,7 +874,7 @@ if __name__ == '__main__':
 {g}
 
 {y}Info:
-    {g}[+] {y}Coder: {r} Milad Tycon
+    {g}[+] {y}Code: {r} Milad Tycon
     
     
 {y}system:
