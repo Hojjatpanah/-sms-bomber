@@ -2,10 +2,11 @@ from platform import node, system, release; Node, System, Release = node(), syst
 from os import system, name; system('clear' if name == 'posix' else 'cls')
 from re import match, sub
 from threading import Thread, active_count
-import urllib3; urllib3.disable_warnings()
+
 from time import sleep
-# Channel: @eili_ch  - :)
-# Coder: @EiLiCom - :)
+
+print("code by tycon")
+
 try:
     from requests import get, post
 except ImportError:
@@ -812,7 +813,7 @@ def mek(phone):
             print(f'{g}(HamrahMechanic) {w}Code Was Sent')
             return True
     except: pass
-# ================================[SEND SMS FUNC]================================
+# ================================[SEND SMS HACKER]================================
 def is_phone(phone: str):
     if match(r"(\+989|^989|09|9)[0-9]{9}", phone):
         return sub(r"(\+989|^989|09)", "+989", phone)
@@ -861,18 +862,20 @@ r='\033[1;31m'
 g='\033[32;1m' 
 y='\033[1;33m'
 w='\033[1;37m'
+b='\033[1;34m'
+p='\033[1;35m'
 if __name__ == '__main__':
     def printLow(Str):
         for char in Str:
             print(char, end='', flush=True)
             sleep(.01)
-    printLow(f'''{r}++++++++++++++++++++++++++++
-{w} Telegram : T.me/eili_ch ++
-{g} +++++++++++++++++++++++++
+    printLow(f'''{r}
+
+{g}
 
 {y}Info:
-    {g}[+] {y}Coder: {w}@eilicom
-    {g}[+] {y}TelegramChannel: {w}@eili_ch
+    {g}[+] {y}Coder: {r} Milad Tycon
+    
     
 {y}system:
     {g}[+] {y}Platform: {w}{System}
@@ -1137,8 +1140,4 @@ if __name__ == '__main__':
 #          main()
          
          
-
-
-        
-# Channel: eili_ch  - :)
-# Coder: @eilicom - :)
+# Coder: Milad Tycon
